@@ -22,6 +22,8 @@ In other words, it's an algorithm that is thinking *"If I make this move, my opp
 ## III. Implementation
 For a Tic Tac Toe game, I give a score to the minimax algorithm by assigning a score to each outcome. A win gives a 10 points,  a loss gives -10 and a tie gives 0. A score of 10 is enough for our concept, because the algorithm can only go a depth of 8 (there  are 8 empty squares after 1 square has been marked).
 
+
+
 I also have to give a penalty to nodes that lose faster. I can do that by substracting the current depth of our tree to the final score. If I don't add this depth component, the algorithm may make a mistake in situations where every outcome is a loss because he will consider every outcome equally and assign an equal score to all of them. 
 
 Finally, I use a depth first search and calculate if each legal move would result in a win, loss or tie and return the best move. 
