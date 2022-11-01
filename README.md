@@ -12,7 +12,7 @@ An important note is that the X player always starts. This means he has an advan
 
 It is an easy game to study because there is not a very large amount of possible situations. There is a maximum of approximately 3<sup>9</sup> = 19,683 board configurations. However, the real number is much smaller because a board can only have an equal amount of X's and O's or 1 more X. Also, some configurations will never be reached because the game is over.
 
-Tic Tac Toe is a zero-sum perfection information game. A zero-sum game means that when a player gains an advantage, the other side faces an equivalent loss, resulting in a sum of zero. A perfect information game means that all players have perfect information of all events that have previously occurred (e.g. Chess, Backgammon, Monopoly), in other words no information is hidden. An example of an imperfect information game could be Poker. With these informations in mind, I will use a minimax algorithm to solve the game of Tic Tac Toe.
+Tic Tac Toe is a zero-sum, two player, perfection information game. A zero-sum game means that when a player gains an advantage, the other side faces an equivalent loss, resulting in a sum of zero. A perfect information game means that all players have perfect information of all events that have previously occurred (e.g. Chess, Backgammon, Monopoly), in other words no information is hidden. An example of an imperfect information game could be Poker. With these informations in mind, I will use a minimax algorithm to solve the game of Tic Tac Toe.
 
 
 ### About Minimax
