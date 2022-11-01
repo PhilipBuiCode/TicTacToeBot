@@ -154,10 +154,9 @@ def tester(TicTacToe, x_player, o_player, iterations):
 
 if __name__ == '__main__':
 
-
-    tester(TicTacToe, RandomComputer('X'), RandomComputer('O'), 1000)
-    tester(TicTacToe, SmartComputer('X'), RandomComputer('O'), 1000)
-    tester(TicTacToe, RandomComputer('X'), SmartComputer('O'), 1000)
-    tester(TicTacToe, SmartComputer('X'), SmartComputer('O'), 1000)
+    tester(TicTacToe, RandomComputer('X'), RandomComputer('O'), 10000)
+    tester(TicTacToe, SmartComputer('X'), RandomComputer('O'), 10000)
+    tester(TicTacToe, RandomComputer('X'), SmartComputer('O'), 10000)
+    tester(TicTacToe, SmartComputer('X'), SmartComputer('O'), 10000)
 
 
